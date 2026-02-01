@@ -1,10 +1,10 @@
 {
-  "name": "wintersmith",
-  "version": "2.5.0",
-  "author": "Johan Nordberg <code@johan-nordberg.com>",
+  "name": "summersmith",
+  "version": "0.0.1",
+  "author": "Bernard Debecker <bernard@vegetalope.com>",
   "description": "A flexible static site generator.",
   "license": "MIT",
-  "main": "./lib/",
+  "main": "./src/",
   "keywords": [
     "static",
     "generator",
@@ -12,42 +12,35 @@
     "pug"
   ],
   "bin": {
-    "wintersmith": "./bin/wintersmith"
+    "summersmith": "./bin/summersmith"
   },
-  "scripts": {
-    "prepublishOnly": "node ./bin/dev/compile_coffee"
-  },
+  "scripts": {},
   "directories": {
-    "lib": "./lib/"
+    "lib": "./src/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jnordberg/wintersmith.git"
+    "url": "https://github.com/brnrd/summersmith.git"
   },
   "dependencies": {
-    "async": "^2.6.1",
-    "chalk": "^2.4.1",
-    "chokidar": "^3.4.3",
-    "coffeescript": "^2.4.1",
-    "highlight.js": "^9.13.1",
-    "js-yaml": "^3.13.1",
-    "marked": "^0.7.0",
-    "mime": "^2.3.1",
-    "minimatch": "^3.0.3",
-    "minimist": "^1.2.5",
-    "mkdirp": "^1.0.4",
-    "ncp": "^2.0.0",
-    "npm": "^7.0.7",
-    "pug": "^2.0.4",
-    "rimraf": "^2.6.2",
+    "async": "^3.2.6",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "highlight.js": "^11.9.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^9.1.6",
+    "mime": "^3.0.0",
+    "minimatch": "^5.1.6",
+    "minimist": "^1.2.8",
+    "pug": "^3.0.3",
     "server-destroy": "^1.0.1",
     "slugg": "^1.2.1",
-    "winston": "^3.2.1"
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
-  "engine": {
-    "node": ">=4"
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

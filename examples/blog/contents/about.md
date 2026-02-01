@@ -2,7 +2,7 @@
 view: none
 ---
 
-Wintersmith is made by [Johan Nordberg][1] and licensed under the [MIT-license][2].
+Summersmith is made by [Johan Nordberg][1] and licensed under the [MIT-license][2].
 This footer text can be edited in about.md
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

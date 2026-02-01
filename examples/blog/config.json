@@ -1,12 +1,12 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
+    "name": "The Summersmith's blog",
     "owner": "Someone",
     "description": "Ramblings of an immor(t)al demigod"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.js"
   ],
   "require": {
     "moment": "moment",

@@ -1,3 +1,13 @@
+## 2.6.0
+*2025-02-01*
+
+* **Project renamed to Summersmith.** The CLI is now `summersmith`; the npm package is `summersmith`. User data directory is `~/.summersmith` (override with `SUMMERSMITH_PATH`). Plugin search includes both `summersmith-plugin` and `wintersmith-plugin` keywords for compatibility.
+* **Breaking:** Removed npm as a dependency. npm's programmatic API was removed in npm v8, so Summersmith no longer runs npm internally.
+  * **`summersmith new`:** After creating a site, run `npm install` in the new directory yourself if the template has a `package.json` (e.g. the blog template). The CLI now prints a reminder when applicable.
+  * **`summersmith plugin install`:** Now runs your system's npm CLI (`npm install --save <package>`) instead of the programmatic API. Ensure `npm` is on your PATH.
+* Upgraded chalk to ^4.1.2 (latest CommonJS-compatible release).
+* Documentation updated (README, CLI help) to describe the new workflow.
+
 ## 2.5.0
 *2018-11-19*
 

@@ -1,13 +1,13 @@
 
 # Webapp
 
-Opinionated web application template for wintersmith.
+Opinionated web application template for summersmith.
 
 Run `npm install` to install the plugins and deps.
 
 ## Uses
 
-  * Plugins
+  * Plugins (wintersmith-era packages, compatible with summersmith)
     * [wintersmith-browserify](https://github.com/jnordberg/wintersmith-browserify)
     * [wintersmith-nunjucks](https://github.com/jbuck/wintersmith-nunjucks)
     * [wintersmith-less](https://github.com/jnordberg/wintersmith-less)

@@ -1,11 +1,11 @@
 ---
 title: README
-author: the-wintersmith
+author: the-summersmith
 date: 2013-04-30
 template: article.pug
 ---
 
-Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available -- run `wintersmith new --help` to list them.
+Welcome to your new blog! This is the default blog template with RSS, pagination and an archive. There are other templates available -- run `summersmith new --help` to list them.
 
 ## _Repeat after me:_ This is my blog. There are many like it, but this one is mine. My blog is my best friend. It is my life. I must master it as I must master my life. My blog, without me, is useless. Without my blog, I am useless.
 
@@ -31,7 +31,7 @@ Good, now, the directory structure of your blog is as follows:
 │   │       └── index.md
 │   ├── authors               <- author metadata, check author.pug
 │   │   ├── baker.json
-│   │   └── the-wintersmith.json
+│   │   └── the-summersmith.json
 │   ├── css
 │   │   └── main.css
 │   └── feed.json
@@ -78,4 +78,4 @@ For example a link to `../bamboo-cutter/index.md` resolves to [`/articles/bamboo
 
 ---
 
-This is where I leave you to your own devices. Join **#wintersmith** on freenode if you have any questions.
+This is where I leave you to your own devices. Join **#summersmith** on freenode if you have any questions.

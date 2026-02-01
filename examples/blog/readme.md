@@ -1,4 +1,4 @@
 
 # Blog
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+The default [summersmith](https://github.com/jnordberg/summersmith) template
