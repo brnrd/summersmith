@@ -1,4 +1,11 @@
 # Summersmith
+![status](https://img.shields.io/badge/status-under%20development-orange)
+
+⚠️ **Status: beta / under active development**
+
+This extension is under active development.
+Features and internal APIs may change.
+Do not rely on it for long-term or production workflows yet.
 
 Summersmith is a simple yet flexible static site generator. It takes contents (markdown, less, scripts, etc), transforms them using plugins and outputs a static website (html, css, images, etc) that you can host anywhere.
 
